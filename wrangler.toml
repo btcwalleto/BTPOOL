@@ -1,19 +1,12 @@
 
-{
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "head_sampling_rate": 1,
-      "invocation_logs": true,
-      "persist": true
-    },
-    "traces": {
-      "enabled": false,
-      "head_sampling_rate": 1,
-      "persist": true
-    },
-    "issue_detection": {
-      "enabled": false
-    }
-  }
-}
+name = "btpool"
+main = "server.js"
+compatibility_date = "2026-10-09"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "btpool-db"
+database_id = "YOUR_EXISTING_DATABASE_ID"
+
+[observability]
+enabled = true
