@@ -1,4 +1,3 @@
-
 name = "btpool"
 main = "server.js"
 compatibility_date = "2026-10-09"
@@ -6,7 +5,7 @@ compatibility_date = "2026-10-09"
 [[d1_databases]]
 binding = "DB"
 database_name = "btpool-db"
-database_id = "YOUR_EXISTING_DATABASE_ID"
+database_id = "شناسه-واقعی-دیتابیس-را-اینجا-قرار-بده"
 
 [observability]
 enabled = true
